@@ -1,0 +1,139 @@
+* {
+/*border: red solid 1px;*/
+}
+
+
+/*---top boarder float---*/
+
+body{
+    background-color: lightgrey;
+    color: white;
+    font-family: 'Cutive Mono', monospace;
+    font-weight: 100;
+}
+
+h1, h3{
+    z-index: 1000;
+    position: fixed;
+    font-size: 11px;
+    color: white;
+    font-family: 'Cutive Mono', monospace;
+    font-weight: lighter;
+    width: 200px;
+    cursor: default;
+    letter-spacing: 1px;
+}
+
+h1{
+    top: 1px;
+}
+
+h3{
+    text-align: right;
+    right: 20px;
+    top: -3px;
+}
+
+a{
+    font-size: 14px;
+    letter-spacing: 0.2px;
+    text-decoration: none;
+}
+a:visited{
+    color: white;
+    text-decoration: none;
+}
+
+/*centerstuff*/
+.main{
+    text-align: center;
+    margin-top:  280px;
+}
+.sitename{
+    font-size: 40px;
+    letter-spacing: 0.5px;
+    font-weight: normal;
+}
+.description{
+    width: 380px;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 14px;
+    letter-spacing: 0.2px;
+    line-height: 19px;
+    margin-top: -30px;
+}
+
+
+/*decorations*/
+.toybox{
+    position: absolute;
+    border: rgb(198,164,243) solid 2px;
+    width: 455px;
+    height: 185px;
+    left: 5%;
+    top: 130px;
+}
+.grandbox{
+    z-index: -10;
+    position: absolute;
+    border: rgb(168,152,152) solid 2px;
+    width: 270px;
+    height: 175px;
+    left: 60%;
+    top: 480px;
+}
+.weatherbox{
+    z-index: -10;
+    position: fixed;
+    border: rgb(149,166,196) solid 2px;
+    width: 270px;
+    height: 300px;
+    left: 18.5%;
+    top: 630px;
+    overflow: hidden;
+}
+.foodline{
+    position: absolute;
+    height: 30%;
+    border-left: 2px solid rgb(225,159,150);
+    top: 525px;
+    left: 36.5%;
+}
+
+.greenline{
+    position: absolute;
+    width: 46%;
+    border-top: 2px solid rgb(126,170,153);
+    top: 317px;
+    right: 0%;
+}
+
+/*words*/
+
+.toys{
+    position: absolute;
+    left: 5.5%;
+    top: 135px;
+}
+.food{
+    position: absolute;
+    left: 37%;
+    top: 610px;
+}
+.weather{
+    position: absolute;
+    left: 19%;
+    top: 735px;
+}
+.grand{
+    position: absolute;
+    left: 71%;
+    top: 635px;
+}
+.music{
+    position: absolute;
+    left: 80%;
+    top: 485px;
+}

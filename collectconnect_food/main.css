@@ -1,0 +1,215 @@
+* {
+/*border: red solid 1px;*/
+}
+
+
+/*---top boarder float---*/
+body{
+    margin-bottom: 20%;
+}
+h1, h2, h3{
+    z-index: 1000;
+    position: fixed;
+    font-size: 11px;
+    color: gray;
+    font-family: 'Cutive Mono', monospace;
+    font-weight: lighter;
+    width: 200px;
+    cursor: default;
+}
+
+h1{
+    top: 1px;
+}
+h2{
+    text-align: center;
+    left: 45%;
+    right: auto;
+    top: -1px;
+}
+
+h3{
+    text-align: right;
+    right: 20px;
+    top: -3px;
+}
+
+/*---body--*/
+p{
+    width:250px;
+    font-size: 14px;
+    margin-left: auto;
+    margin-right: auto;
+    font-family: 'crimson text', serif;
+}
+
+/*---topic--*/
+.toys{
+    color: rgb(198,164,243);
+    font-weight: bold;
+    cursor: -webkit-grab;
+}
+.grandparents{
+    color: rgb(168,152,152);
+    font-weight: bold;
+    cursor: -webkit-grab;
+}
+.music{
+    color: rgb(222,199,168);
+    font-weight: bold;
+    cursor: -webkit-grab;
+}
+.food{
+    color: rgb(225,159,150);
+    font-weight: bold;
+    cursor: -webkit-grab;
+}
+.bookmark{
+    width: 160px;
+    font-family: 'Cutive Mono', monospace;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 15px;
+}
+.right{
+    right: 20px;
+}
+
+/*---layout--*/
+span:hover + img{
+    visibility: visible;
+}
+
+.ruth{
+    position: absolute;
+    left: 15%;
+    top: 160px;
+    cursor: -webkit-grab;
+}
+.ruth2{
+    position: absolute;
+    left: 20%;
+    top: 200px;
+    cursor: default;
+}
+.ruthpop{
+    position: absolute;
+    top: 150px;
+    color: lightgray;
+    display: none;
+}
+.ruthline{
+    width: 17.75%;
+    border-bottom: 2px solid lightgray;
+    float: right;
+    top: 190px;
+}
+.img1{
+    z-index: 10;
+    position: absolute;
+    width: 440px;
+    height: 290px;
+    left: 135%;
+    top: -25px;
+    padding: 15px;
+    visibility: hidden;
+    border: #aaaaaa solid 1px;
+}
+.kaitlyn{
+    position: absolute;
+    left: 65%;
+    top: 420px;
+    cursor: -webkit-grab;
+}
+.kaitlyn2{
+    position: absolute;
+    left: 70%;
+    top: 460px;
+    cursor: default;
+}
+.kaitlynpop{
+    position: absolute;
+    right: -10px;
+    top: 410px;
+    color: lightgray;
+    display: none;
+}
+.kaitlynline{
+    width: 36%;
+    border-bottom: 2px solid lightgray;
+    float: right;
+    top: 450px;
+}
+
+.sarah{
+    position: absolute;
+    left: 25%;
+    top: 800px;
+    cursor: -webkit-grab;
+}
+.sarah2{
+    position: absolute;
+    left: 30%;
+    top: 840px;
+    cursor: default;
+}
+
+.ingrid{
+    position: absolute;
+    left: 15%;
+    top: 1100px;
+    cursor: -webkit-grab;
+}
+.ingrid2{
+    position: absolute;
+    left: 20%;
+    top: 1140px;
+    cursor: default;
+}
+
+.taryn{
+    position: absolute;
+    left: 65%;
+    top: 1300px;
+    cursor: -webkit-grab;
+}
+.taryn2{
+    position: absolute;
+    left: 70%;
+    top: 1340px;
+    cursor: default;
+}
+
+.laura{
+    position: absolute;
+    left: 55%;
+    top: 1760px;
+    cursor: -webkit-grab;
+}
+.laura2{
+    position: absolute;
+    left: 60%;
+    top: 1800px;
+    cursor: default;
+}
+.laurapop{
+    position: absolute;
+    right: -13px;
+    top: 1750px;
+    color: lightgray;
+    display: none;
+}
+.lauraline{
+    width: 46%;
+    border-bottom: 2px solid lightgray;
+    float: right;
+    top: 1790px;
+}
+.img2{
+    position: absolute;
+    width: 250px;
+    height: 300px;
+    left: -130%;
+    top: -38px;
+    visibility: hidden;
+}

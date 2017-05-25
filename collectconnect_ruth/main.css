@@ -1,0 +1,215 @@
+* {
+/*border: red solid 1px;*/
+}
+
+
+/*---top boarder float---*/
+body{
+    margin-bottom: 20%;
+}
+h1, h2, h3{
+    z-index: 1000;
+    position: fixed;
+    font-size: 11px;
+    color: gray;
+    font-family: 'Cutive Mono', monospace;
+    font-weight: lighter;
+    width: 200px;
+    cursor: default;
+}
+
+h1{
+    top: 1px;
+}
+h2{
+    text-align: center;
+    left: 45%;
+    right: auto;
+    top: -1px;
+}
+
+h3{
+    text-align: right;
+    right: 20px;
+    top: -3px;
+}
+
+/*---body--*/
+p{
+    width:250px;
+    font-size: 14px;
+    margin-left: auto;
+    margin-right: auto;
+    font-family: 'crimson text', serif;
+}
+
+/*---topic--*/
+.toys{
+    color: rgb(198,164,243);
+    font-weight: bold;
+    cursor: -webkit-grab;
+}
+.grandparents{
+    color: rgb(168,152,152);
+    font-weight: bold;
+    cursor: -webkit-grab;
+}
+.music{
+    color: rgb(222,199,168);
+    font-weight: bold;
+    cursor: -webkit-grab;
+}
+.food{
+    color: rgb(225,159,150);
+    font-weight: bold;
+    cursor: -webkit-grab;
+}
+.bookmark{
+    width: 160px;
+    font-family: 'Cutive Mono', monospace;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 15px;
+}
+.right{
+    right: 20px;
+}
+
+/*---layout--*/
+
+.smell{
+    position: absolute;
+    left: 15%;
+    top: 180px;
+}
+.smell2{
+    position: absolute;
+    left: 20%;
+    top: 220px;
+}
+.img1{
+    position: absolute;
+    width: 350px;
+    height: 245px;
+    left: 0px;
+    top: 450px;
+}
+.box1{
+    position: absolute;
+    border: #aaaaaa solid 1px;
+    width: 695px;
+    height: 125px;
+    left: 5%;
+    top: 425px;
+}
+.img2{
+    position: absolute;
+    width: 350px;
+    height: 245px;
+    left: 50%;
+    top: 235px;
+    visibility: hidden;
+}
+.img1:hover + .img2{
+    visibility: visible;
+}
+.walking{
+    position: absolute;
+    left: 50%;
+    top: 600px;
+}
+.img3{
+    position: absolute;
+    width: 440px;
+    height: 308px;
+    left: 65%;
+    top: 850px;
+}
+
+.noise{
+    position: absolute;
+    left: 65%;
+    top: 100px;
+}
+.noise2{
+    position: absolute;
+    left: 70%;
+    top: 140px;
+}
+.noisepop{
+    position: absolute;
+    right: 28px;
+    top: 28px;
+    display: none;
+}
+.noiseline{
+    width: 33.5%;
+    border-bottom: 2px solid rgb(222,199,168);
+    float: right;
+    top: 130px;
+}
+
+.things{
+    position: absolute;
+    left: 15%;
+    top: 900px;
+}
+.things2{
+    position: absolute;
+    left: 20%;
+    top: 940px;
+}
+
+.oranges{
+    position: absolute;
+    left: 75%;
+    top: 1300px;
+}
+.img4{
+    position: absolute;
+    width: 380px;
+    height: 270px;
+    left: 55%;
+    top: 1520px;
+/*
+    border: #aaaaaa solid 1px;
+    padding: 20px;
+*/
+}
+.box2{
+    position: absolute;
+    border: #aaaaaa solid 1px;
+    width: 220px;
+    height: 175px;
+    left: 50%;
+    top: 1500px;
+}
+
+.caterpillar{
+    position: absolute;
+    left: 30%;
+    top: 1300px;
+}
+
+.taylor{
+    position: absolute;
+    left: 20%;
+    top: 1720px;
+}
+
+.tradition{
+    position: absolute;
+    left: 65%;
+    top: 2100px;
+}
+.tradition2{
+    position: absolute;
+    left: 70%;
+    top: 2140px;
+}
+
+.grandma{
+    position: absolute;
+    left: 15%;
+    top: 2300px;
+}
